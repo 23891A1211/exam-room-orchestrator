@@ -32,6 +32,18 @@ export default {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
+				academic: {
+					DEFAULT: 'hsl(var(--academic))',
+					foreground: 'hsl(var(--academic-foreground))'
+				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
@@ -85,6 +97,15 @@ export default {
 						height: '0'
 					}
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-academic': 'var(--gradient-academic)',
+				'gradient-surface': 'var(--gradient-surface)'
+			},
+			boxShadow: {
+				'academic': 'var(--shadow-academic)',
+				'card': 'var(--shadow-card)'
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
